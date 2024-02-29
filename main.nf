@@ -34,7 +34,7 @@ include { filterVCF } from './modules/filterVCF'
 
 workflow {
     // Set up channel for the genome fasta file including indexes if already created
-    // genome_ch = file(params.genome_file)
+    genome_ch = file(params.genome_file)
     // can just use params.genome_file directly here as it will auto create a channel for it if not declared
 
     //SCADD - create a fractions channel
