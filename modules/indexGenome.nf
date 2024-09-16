@@ -5,7 +5,7 @@
 process indexGenome {
 
     label 'process_high'
-    container 'variantvalidator/indexgenome:1.1.0'
+    //container 'variantvalidator/indexgenome:1.1.0'
 
 
     // Publish indexed files to the specified directory

@@ -4,7 +4,7 @@
 process haplotypeCaller {
 
     label 'process_medium'
-    container 'variantvalidator/gatk4:4.3.0.0'
+    //container 'variantvalidator/gatk4:4.3.0.0'
 
     tag "$bamFile"
 

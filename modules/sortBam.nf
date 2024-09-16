@@ -4,7 +4,7 @@
 process sortBam {
 
     label 'process_single'
-    container 'variantvalidator/indexgenome:1.1.0'
+    //container 'variantvalidator/indexgenome:1.1.0'
      
     tag "$bamFile"
 

@@ -25,6 +25,7 @@ include { markDuplicates } from './modules/markDuplicates'
 include { indexBam } from './modules/indexBam'
 include { haplotypeCaller } from './modules/haplotypeCaller'
 include { filterVCF } from './modules/filterVCF'
+include { baseRecalibrator } from './modules/BQSR.nf'
 
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
